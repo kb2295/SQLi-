@@ -1,0 +1,12 @@
+FOR RUNNING POC
+1. Run `pip install -r requirements.txt` to install the required packages
+2. Run `python SQLiDetector.py` to start the program
+3. Follow the instructions given in the program
+  a) You will be asked for a URL for the site you'd like to scan
+  b) After you enter the URL, the page will be scanned and a report will be generated
+
+FOR RUNNING TEST SITE
+1. Create server in server directory (ex: with MAMP)
+2. Dump the dump.sql file into a new database
+3. Replace credentials in /server/db-config.php
+4. Run the server
